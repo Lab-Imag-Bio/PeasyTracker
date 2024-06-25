@@ -1,0 +1,7 @@
+peasyEnv/
+*.pyc
+__pycache__
+.pytest_cache
+peasyTracker.egg-info/
+dist/
+conftest.py

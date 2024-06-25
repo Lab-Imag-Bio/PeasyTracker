@@ -1,0 +1,11 @@
+#  Munkres Assignment Algorithm 
+This is an extremely fast implementation of the famous Hungarian algorithm (aslo known as Munkres' algorithm). It can solve a 1000 x 1000 problem in about 20 seconds in a Core Duo (T2500 @ 2.00GHz) XP laptop with Matlab 2008a, which is about 2.5 times faster than the mex code "assignmentoptimal" in FEX ID 6543, about 6 times faster than the author's first version in FEX ID 20328, and at least 30 times faster than other Matlab implementations in the FEX.
+
+The code can also handle rectangular prolems and problems with forbiden allocations.
+
+The new version (V2.3) is able to conduct a partial assignment if a full assignment is not feasible.
+
+For more details of the Hungarian algorithm, visit http://csclab.murraystate.edu/bob.pilgrim/445/munkres.html
+
+# Cite as
+Yi Cao (2024). Hungarian Algorithm for Linear Assignment Problems (V2.3) (https://www.mathworks.com/matlabcentral/fileexchange/20652-hungarian-algorithm-for-linear-assignment-problems-v2-3), MATLAB Central File Exchange. Retrieved the 25th June 2024.
